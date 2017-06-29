@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nectarbits.baraati.SelectPaymentActivity">
+<include layout="@layout/layout_toolbar_normal"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="true">
+            <com.balysv.materialripple.MaterialRippleLayout
+                app:mrl_rippleColor="@color/colorRippleGray"
+                app:mrl_rippleAlpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TableRow
+
+                android:id="@+id/trNetBanking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/category_item_selector">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_12sdp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.nectarbits.baraati.View.TextViewTitle
+
+                            android:id="@+id/checkboxTextview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/str_netbanking"
+                            android:textColor="@color/colorTitle"
+                            android:textSize="@dimen/medium_Fonts" />
+
+                    </LinearLayout>
+
+
+                    <CheckBox
+                        android:button="@drawable/selector_radio_checked"
+                        android:id="@+id/rbNetBanking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/_12sdp"
+                        />
+
+
+                </LinearLayout>
+            </TableRow>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="true">
+            <com.balysv.materialripple.MaterialRippleLayout
+                app:mrl_rippleColor="@color/colorRippleGray"
+                app:mrl_rippleAlpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:id="@+id/trCreditCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/category_item_selector">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_12sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/str_credit_card"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:id="@+id/rbCrediCard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_12sdp"
+                            android:button="@drawable/selector_checked" />
+
+
+                    </LinearLayout>
+                </TableRow>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="true">
+            <com.balysv.materialripple.MaterialRippleLayout
+                app:mrl_rippleColor="@color/colorRippleGray"
+                app:mrl_rippleAlpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:id="@+id/trEMI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/category_item_selector">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_12sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/str_EMI"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:id="@+id/rbEMI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_12sdp"
+                            android:button="@drawable/selector_checked" />
+
+
+                    </LinearLayout>
+                </TableRow>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="true">
+            <com.balysv.materialripple.MaterialRippleLayout
+                app:mrl_rippleColor="@color/colorRippleGray"
+                app:mrl_rippleAlpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:id="@+id/trDebitCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/category_item_selector">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_12sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/str_debit_card"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:id="@+id/rbDebitCard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_12sdp"
+                            android:button="@drawable/selector_checked" />
+
+
+                    </LinearLayout>
+                </TableRow>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="true">
+            <com.balysv.materialripple.MaterialRippleLayout
+                app:mrl_rippleColor="@color/colorRippleGray"
+                app:mrl_rippleAlpha="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:id="@+id/trCashOnDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/category_item_selector">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_12sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/str_cash_on_delivery"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                        </LinearLayout>
+
+
+                        <CheckBox
+                            android:id="@+id/rbCashOnDelivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_12sdp"
+                            android:button="@drawable/selector_checked" />
+
+
+                    </LinearLayout>
+                </TableRow>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/_7sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:text="@string/str_price_detail"
+                android:textSize="@dimen/medium_Fonts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.nectarbits.baraati.View.TextViewTitle
+                    android:layout_weight="1"
+                    android:text="Price (1)"
+                    android:textColor="@color/colorDesciption"
+                    android:textSize="@dimen/medium_Fonts_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <com.nectarbits.baraati.View.TextViewTitle
+                    android:id="@+id/ttvPrice"
+                    android:textColor="@color/colorTitle"
+                    android:text=""
+                    android:textSize="@dimen/medium_Fonts_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.nectarbits.baraati.View.TextViewTitle
+                    android:layout_weight="1"
+                    android:text="@string/str_delivery"
+                    android:textColor="@color/colorDesciption"
+                    android:textSize="@dimen/medium_Fonts_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <com.nectarbits.baraati.View.TextViewTitle
+                    android:textColor="@color/colorTitle"
+                    android:text=""
+                    android:textSize="@dimen/medium_Fonts_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="@dimen/_7sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:layout_weight="1"
+                android:text="@string/str_amount_payable"
+                android:textColor="@color/colorDesciption"
+                android:textSize="@dimen/medium_Fonts_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:id="@+id/ttvTotalPrice"
+                android:textColor="@color/colorTitle"
+                android:text=""
+                android:textSize="@dimen/medium_Fonts_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <com.balysv.materialripple.MaterialRippleLayout
+        app:mrl_rippleBackground="@color/colorCartButton"
+        app:mrl_rippleColor="@color/colorWhite"
+        app:mrl_rippleAlpha="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:id="@+id/ttvPlaceOrder"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/medium_Fonts"
+            android:textColor="@color/colorWhite"
+            android:text="@string/str_place_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

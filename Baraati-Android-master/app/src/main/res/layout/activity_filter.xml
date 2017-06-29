@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnCancel"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/selector_cancel"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp" />
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:layout_weight="1"
+            android:textSize="@dimen/medium_Fonts"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="Filter By"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:id="@+id/txtClear"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:textColor="@color/selector_white_primary"
+            android:text="Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:id="@+id/txtApply"
+            android:textColor="@color/selector_white_primary"
+            android:text="Apply"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <org.florescu.android.rangeseekbar.RangeSeekBar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="@dimen/_6sdp"
+        android:id="@+id/rangeSeekbar"/>
+
+    <ScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:id="@+id/llFilterContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorGraySelctor"/>
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:background="@color/color_filter_title_color"
+            android:weightSum="10"
+            android:id="@+id/llFilterContainer_New"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+
+
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:id="@+id/llFilterNameContainer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <!--  <TextView
+                      android:text="lkdjaskldjaslk"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />-->
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/colorWhite"
+                android:padding="@dimen/_8sdp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:id="@+id/llFilterValueContainer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <!--   <TextView
+                       android:text="lkdjaskldjaslk"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />-->
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

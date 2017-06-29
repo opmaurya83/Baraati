@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\orm.properties",
+        "source": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_db\\build\\intermediates\\bundles\\default\\res\\raw\\orm.properties"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\image.png",
+        "source": "C:\\Users\\nectarbits\\.android\\build-cache\\9a17e34836655003cc15737de5b9e5be51c6c1ee\\output\\res\\raw\\image.png"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xmlresponse.xml",
+        "source": "C:\\Users\\nectarbits\\.android\\build-cache\\9a17e34836655003cc15737de5b9e5be51c6c1ee\\output\\res\\raw\\xmlresponse.xml"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\file.txt",
+        "source": "C:\\Users\\nectarbits\\.android\\build-cache\\9a17e34836655003cc15737de5b9e5be51c6c1ee\\output\\res\\raw\\file.txt"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\amazaonerror.xml",
+        "source": "C:\\Users\\nectarbits\\.android\\build-cache\\9a17e34836655003cc15737de5b9e5be51c6c1ee\\output\\res\\raw\\amazaonerror.xml"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.wav",
+        "source": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.wav"
+    },
+    {
+        "merged": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\tw__cacerts",
+        "source": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\raw\\tw__cacerts"
+    }
+]

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/src/main/assets"/><source path="/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/src/debug/assets"/></dataSet></merger>

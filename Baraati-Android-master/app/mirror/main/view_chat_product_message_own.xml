@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1479893982186 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/view_chat_product_message_own">
+        <!-- TextView Examples:
+        <product_name_textview text="@string/string_resource" />
+        <product_name_textview text="Text literal" textSize="14sp" /> -->
+        <product_name_textview />
+        <time_product_message_textview />
+        <!-- ImageView Examples:
+        <product_message_delivery_status_imageview src="@drawable/image_resource" />
+        <product_message_delivery_status_imageview src="relative_path/image.jpg" /> -->
+        <product_message_delivery_status_imageview />
+    </_content>
+</screen>

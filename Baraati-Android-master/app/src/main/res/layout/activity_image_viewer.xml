@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/layout_toolbar_normal"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="99"/>
+
+        <ImageView
+            android:padding="@dimen/_10sdp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:src="@drawable/selector_back_button"
+          >
+        </ImageView>
+
+       <!-- <LinearLayout
+            android:id="@+id/llImageCapsule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/vpImageSlider"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/thirty_dip"
+            android:layout_marginLeft="@dimen/twentysix_dip"
+            android:layout_alignParentStart="true">
+
+        </LinearLayout>-->
+
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:id="@+id/tvCount"
+            android:background="@color/colorWhite"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/large_Fonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

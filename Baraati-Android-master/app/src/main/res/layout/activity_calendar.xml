@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nectarbits.baraati.CalendarActivity">
+    <include layout="@layout/layout_toolbar_normal" />
+    <TextView
+        android:id="@+id/txtMonthYear"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/medium_Fonts"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:text="Feb-2016"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="250dp"
+        app:compactCalendarTextSize="12sp"
+        app:compactCalendarBackgroundColor="@color/colorPrimary"
+        app:compactCalendarTextColor="#fff"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#E57373"
+        app:compactCalendarCurrentDayBackgroundColor="@color/colorPrimaryDark"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcUserEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

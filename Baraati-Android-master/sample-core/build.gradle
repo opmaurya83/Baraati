@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.2'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+   /* compile ("com.quickblox:quickblox-android-sdk-messages:$rootProject.qbSdkVersion" )
+
+    compile "com.google.android.gms:play-services-gcm:${rootProject.playServicesVersion}"
+    compile "com.android.support:design:${rootProject.designVersion}"
+    compile "com.github.johnkil.android-robototextview:robototextview:${rootProject.robotoTextViewVersion}"*/
+    compile 'com.quickblox:quickblox-android-sdk-messages:3.0'
+    compile 'com.quickblox:quickblox-android-sdk-chat:3.0'
+    compile 'com.github.johnkil.android-robototextview:robototextview:2.4.3'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.google.android.gms:play-services-gcm:9.4.0'
+
+}

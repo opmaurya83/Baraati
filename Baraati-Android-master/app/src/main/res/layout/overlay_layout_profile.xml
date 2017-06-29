@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llOverLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp">
+
+
+        <ImageView
+            android:id="@+id/ivBG"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_prfile_cover" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:clickable="true"
+            android:visibility="gone"
+            android:id="@+id/iv_choose_profile_bg"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:background="@drawable/selector_edit_pic"
+            />
+
+        <RelativeLayout
+
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:id="@+id/civ_profile_pic"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/icon_dem"
+                    app:siBorderColor="@color/white"
+                    app:siBorderWidth="@dimen/_4sdp" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:id="@+id/iv_choose_profile"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_45sdp"
+                    android:background="@drawable/selector_edit_pic"
+                   />
+            </RelativeLayout>
+
+            <ImageView
+
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:src="@drawable/ic_app_pic" />
+        </RelativeLayout>
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:clickable="true"
+            android:id="@+id/tvEdit"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/medium_Fonts"
+            android:layout_margin="@dimen/_7sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:text="Edit"
+            android:shadowDx="2"
+            android:background="#8bc70039"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textColor="@color/selector_white_primary" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:focusableInTouchMode="false"
+
+                    android:id="@+id/et_bride"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:gravity="center"
+                    android:hint="Bride"
+                    android:singleLine="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="@dimen/medium_Fonts" />
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/et_bride_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:gravity="center"
+                    android:hint="Phone Number"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/small_Fonts" />
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/et_bride_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:gravity="center"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/small_Fonts" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    app:srcCompat="@drawable/ic_ring" />
+
+                <com.nectarbits.baraati.View.TextViewTitle
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/weds"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/medium_Fonts_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/et_groom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:gravity="center"
+                    android:hint="Groom"
+                    android:singleLine="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="@dimen/medium_Fonts" />
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/et_groom_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:gravity="center"
+                    android:hint="Phone Number"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/small_Fonts" />
+
+                <com.nectarbits.baraati.View.EditTextKozukaGothicProL
+                    android:id="@+id/et_groom_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tw__transparent"
+                    android:focusableInTouchMode="false"
+
+                    android:gravity="center"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/small_Fonts" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+
+            android:clickable="true"
+            android:id="@+id/tv_wedding_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/tw__transparent"
+            android:gravity="center"
+            android:hint="on DD:MM:YYYY"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/large_Fonts" />
+
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/tw__transparent"
+            android:gravity="center"
+            android:hint="Brace yourself! Its getting real!"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/large_Fonts" />
+
+        <!--   <cn.iwgang.countdownview.CountdownView
+               android:layout_marginTop="@dimen/_5sdp"
+               android:id="@+id/cv_countdownView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               app:isHideTimeBackground="false"
+               android:textAlignment="center"
+               app:isShowDay="true"
+               app:isShowHour="true"
+               app:isShowMillisecond="false"
+               app:isShowMinute="true"
+               app:isShowSecond="true"
+               app:suffixGravity="center"
+               app:suffixTextColor="#000000"
+               app:suffixTextSize="30sp"
+               app:timeBgDivisionLineSize="1dp"
+               app:timeBgRadius="@dimen/_5sdp"
+               app:timeBgColor="@color/black"
+               app:timeBgSize="@dimen/_40sdp"
+               app:timeTextColor="#FFAB7B"
+               app:isTimeTextBold="true"
+               app:timeTextSize="@dimen/_25sdp"/>-->
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/llTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+                    android:singleLine="true"
+                    android:id="@+id/tvtDays"
+                    android:ellipsize="end"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/timer_bg_2"
+                    android:gravity="center"
+                    android:shadowColor="@color/colorRippleGray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:text="00"
+                    android:textColor="#FFAB7B"
+                    android:textSize="@dimen/_30sdp" />
+
+                <View
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white_trans" />
+            </RelativeLayout>
+
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:shadowColor="@color/colorRippleGray"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/extra_large_Fonts" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+                <!--   <com.nectarbits.baraati.View.TextViewTitle
+                       android:id="@+id/tvtHours"
+                       android:shadowColor="@color/colorRippleGray"
+                       android:shadowDx="2"
+                       android:shadowDy="2"
+                       android:shadowRadius="5"
+                       android:textSize="@dimen/medium_Fonts"
+                       android:textColor="@color/white"
+                       android:gravity="center"
+                       android:background="@drawable/timer_bg"
+                       android:text="00"
+                       android:layout_width="@dimen/_35sdp"
+                       android:layout_height="@dimen/_35sdp" />-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+                        android:singleLine="true"
+                        android:id="@+id/tvtHours"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:background="@drawable/timer_bg_2"
+                        android:gravity="center"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:text="00"
+                        android:textColor="#FFAB7B"
+                        android:textSize="@dimen/_30sdp" />
+
+                    <View
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white_trans" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:shadowColor="@color/colorRippleGray"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/extra_large_Fonts" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<com.nectarbits.baraati.View.TextViewTitle
+                    android:id="@+id/tvtMinutes"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/timer_bg"
+                    android:gravity="center"
+                    android:shadowColor="@color/colorRippleGray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:text="00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/medium_Fonts" />-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+                        android:singleLine="true"
+                        android:id="@+id/tvtMinutes"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:background="@drawable/timer_bg_2"
+                        android:gravity="center"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:text="00"
+                        android:textColor="#FFAB7B"
+                        android:textSize="@dimen/_30sdp" />
+
+                    <View
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white_trans" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:shadowColor="@color/colorRippleGray"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/extra_large_Fonts" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<com.nectarbits.baraati.View.TextViewTitle
+                    android:id="@+id/tvtSeconds"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/timer_bg"
+                    android:gravity="center"
+                    android:shadowColor="@color/colorRippleGray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:text="00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/medium_Fonts" />
+-->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+                        android:singleLine="true"
+                        android:id="@+id/tvtSeconds"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:background="@drawable/timer_bg_2"
+                        android:gravity="center"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:text="00"
+                        android:textColor="#FFAB7B"
+                        android:textSize="@dimen/_30sdp" />
+
+                    <View
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white_trans" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_6sdp"
+                    android:background="@color/colorPrimary"></View>
+
+                <View
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/colorPrimary"></View>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

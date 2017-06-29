@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mobikul.MainActivity" >
+    <item
+        android:id="@+id/action_compare"
+        android:icon="@drawable/icon_compare_white"
+        android:title="@string/srt_compare"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="@string/str_cart"
+        app:showAsAction="always" />
+</menu>

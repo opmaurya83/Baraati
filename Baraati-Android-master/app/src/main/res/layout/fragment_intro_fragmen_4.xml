@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroFragment.Intro_fragment_3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/img"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:background="@color/black_trans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:src="@drawable/ic_intro_4"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp" />
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+            android:layout_marginTop="@dimen/_15sdp"
+
+            android:gravity="center"
+            android:text="SHOP"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+
+            android:text="By all wedding related products"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+
+            android:text="At the ease of the click, delivered to your door step !"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Photo Credit: Stories by Joseph Radhik"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

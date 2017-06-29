@@ -1,0 +1,14 @@
+<!-- [ Mirror metadata ] generatedAt: 1479893982354 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/layout_vendor_things_list_item">
+        <!-- ImageView Examples:
+        <imgVendor src="@drawable/image_resource" />
+        <imgVendor src="relative_path/image.jpg" /> -->
+        <imgVendor />
+    </_content>
+</screen>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_marginTop="@dimen/_20sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_40sdp"
+    android:paddingRight="@dimen/_40sdp"
+    android:background="@color/black_trans"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvTutorial"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Tutorial"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvInspireYourSelf"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="@string/title_activity_inspire_your_self"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvShareThisApp"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Share this App"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvOrderHistory"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Order History"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvVendorInquiry"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Vendor Inquiry"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvPintrest"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Pintrest"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:clickable="true"
+        android:id="@+id/tvSetttings"
+        android:padding="@dimen/_7sdp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textSize="@dimen/medium_Fonts_12"
+        android:textColor="@color/selector_white_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+</LinearLayout>
+</LinearLayout>

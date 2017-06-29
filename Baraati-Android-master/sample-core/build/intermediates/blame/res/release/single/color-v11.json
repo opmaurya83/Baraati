@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/work_space/Studio/Baraati/Baraati_29_8/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

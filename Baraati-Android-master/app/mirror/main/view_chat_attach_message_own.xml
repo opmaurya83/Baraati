@@ -1,0 +1,18 @@
+<!-- [ Mirror metadata ] generatedAt: 1479893982363 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/view_chat_attach_message_own">
+        <!-- TextView Examples:
+        <time_attach_message_textview text="@string/string_resource" />
+        <time_attach_message_textview text="Text literal" textSize="14sp" /> -->
+        <time_attach_message_textview />
+        <!-- ImageView Examples:
+        <attach_message_delivery_status_imageview src="@drawable/image_resource" />
+        <attach_message_delivery_status_imageview src="relative_path/image.jpg" /> -->
+        <attach_message_delivery_status_imageview />
+    </_content>
+</screen>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nectarbits.baraati">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.nectarbits.baraati.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.nectarbits.baraati.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.w" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"
+        tools:node="replace" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"
+        tools:node="replace" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"
+        tools:node="replace" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:largeHeap="true"
+        android:name=".BaraatiApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginOptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpWithOTP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubCategoryActivity"
+            android:label="@string/str_choose_wedding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CategoryListActivity"
+            android:label="@string/str_choose_wedding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventTypeActivity"
+            android:label="@string/str_things_you_need"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventActivty"
+            android:label="@string/str_choose_event"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/str_aboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/str_contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:label="@string/str_privacy_policy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsOfUseActivity"
+            android:label="@string/str_terms_of_use"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VendorListActivity"
+            android:label="@string/str_buy_your_things"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VenderDetailActivity"
+            android:label="@string/str_buy_your_things"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductTypeActivity"
+            android:label="@string/str_bidding_pipeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalendarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventDateActivity_New"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".NotifyService" />
+
+        <activity
+            android:name=".VendorBazaarActivity"
+            android:label="@string/title_activity_vendor_bazaar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ImageViewerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductImageViewerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChatViewerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddReviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateAddress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddressSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentSucessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BlogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Intro_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompareActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MobileVerificationActivity" />
+        <activity android:name=".OTPActivity" />
+        <activity
+            android:name=".InspireYourSelfActivity"
+            android:label="@string/title_activity_inspire_your_self"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileDetailActivity"
+            android:label="@string/str_profile"
+            android:screenOrientation="portrait" />
+
+        <!-- ##################################################CHAT###################################################### -->
+        <activity
+            android:name=".Chat.ui.activities.authorization.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.authorization.LandingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.authorization.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.authorization.SignUpActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Chat.ui.activities.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.settings.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.invitefriends.InviteFriendsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.feedback.FeedbackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.profile.UserProfileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.call.CallActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.NewMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.ContactsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.NewGroupDialogActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.CreateGroupDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.PrivateDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.GroupDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.GroupDialogDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.profile.MyProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.chats.AddFriendsToGroupActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.changepassword.ChangePasswordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.forgotpassword.ForgotPasswordActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.agreements.UserAgreementActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name=".Chat.ui.activities.about.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ui.activities.others.PreviewImageActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7aea78439bec41a9005c7488bb6751c5e33fe270" />
+
+        <receiver
+            android:name=".Chat.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.nectarbits.baraati" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".Chat.utils.broadcasts.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!--
+        <receiver
+             android:name=".Chat.gcm.GcmBroadcastReceiver"
+             android:label="ChatMessageReceiver">
+             <intent-filter>
+                 <action android:name="q_municate.got_chat_message" />
+             </intent-filter>
+         </receiver>
+        -->
+
+        <service android:name=".Chat.gcm.GCMIntentService" />
+        <service android:name=".Utils.ContactService" />
+        <service
+            android:name="com.quickblox.q_municate_core.service.QBService"
+            android:icon="@mipmap/ic_launcher_app" />
+        <!-- ##################################################CHAT###################################################### -->
+        <activity android:name=".NotificationActivity" />
+        <activity
+            android:name=".InquiryListActivity"
+            android:label="@string/title_activity_inquiry_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EventDateResponsibilityActivity"
+            android:label="@string/title_activity_inquiry_list"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".FireBaseGCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".PaymentActivity" />
+        <activity
+            android:name=".VendorFilterActivity"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".LoginSignUpActivity"></activity>
+    </application>
+
+</manifest>

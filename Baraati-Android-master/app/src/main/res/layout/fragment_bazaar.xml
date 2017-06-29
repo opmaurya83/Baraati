@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context="com.nectarbits.baraati.Fragment.BazaarFragment">
+
+ <android.support.v7.widget.RecyclerView
+     android:id="@+id/rcProductList"
+     android:background="#F5F5F5"
+     android:paddingTop="@dimen/_3sdp"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ </android.support.v7.widget.RecyclerView>
+ <include layout="@layout/layout_empty_text"/>
+</FrameLayout>

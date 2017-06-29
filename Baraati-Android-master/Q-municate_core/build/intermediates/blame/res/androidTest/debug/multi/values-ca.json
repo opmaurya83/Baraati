@@ -1,0 +1,919 @@
+[
+    {
+        "outputFile": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ca\\values-ca.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 58,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 58,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 71,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 71,
+                        "endOffset": 232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 105,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 105,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 93,
+                    "endOffset": 432
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 93,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 437,
+                    "endColumn": 118,
+                    "endOffset": 551
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 118,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 51,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 51,
+                        "endOffset": 603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endColumn": 63,
+                    "endOffset": 667
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 608,
+                        "endColumn": 63,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 672,
+                    "endColumn": 75,
+                    "endOffset": 743
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 75,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 748,
+                    "endColumn": 78,
+                    "endOffset": 822
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 78,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 827,
+                    "endColumn": 50,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endColumn": 50,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 878,
+                    "endColumn": 42,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 878,
+                        "endColumn": 42,
+                        "endOffset": 916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 76,
+                    "endOffset": 993
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 921,
+                        "endColumn": 76,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 998,
+                    "endColumn": 86,
+                    "endOffset": 1080
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 998,
+                        "endColumn": 86,
+                        "endOffset": 1080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1085,
+                    "endColumn": 72,
+                    "endOffset": 1153
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1085,
+                        "endColumn": 72,
+                        "endOffset": 1153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1158,
+                    "endColumn": 106,
+                    "endOffset": 1260
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1158,
+                        "endColumn": 106,
+                        "endOffset": 1260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1265,
+                    "endColumn": 99,
+                    "endOffset": 1360
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1265,
+                        "endColumn": 99,
+                        "endOffset": 1360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1365,
+                    "endColumn": 85,
+                    "endOffset": 1446
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1365,
+                        "endColumn": 85,
+                        "endOffset": 1446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1451,
+                    "endColumn": 86,
+                    "endOffset": 1533
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1451,
+                        "endColumn": 86,
+                        "endOffset": 1533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1538,
+                    "endColumn": 48,
+                    "endOffset": 1582
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1538,
+                        "endColumn": 48,
+                        "endOffset": 1582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1587,
+                    "endColumn": 47,
+                    "endOffset": 1630
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1587,
+                        "endColumn": 47,
+                        "endOffset": 1630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1635,
+                    "endColumn": 70,
+                    "endOffset": 1701
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1635,
+                        "endColumn": 70,
+                        "endOffset": 1701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1706,
+                    "endColumn": 83,
+                    "endOffset": 1785
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1706,
+                        "endColumn": 83,
+                        "endOffset": 1785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1790,
+                    "endColumn": 107,
+                    "endOffset": 1893
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1790,
+                        "endColumn": 107,
+                        "endOffset": 1893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1898,
+                    "endColumn": 78,
+                    "endOffset": 1972
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1898,
+                        "endColumn": 78,
+                        "endOffset": 1972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1977,
+                    "endColumn": 85,
+                    "endOffset": 2058
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1977,
+                        "endColumn": 85,
+                        "endOffset": 2058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2063,
+                    "endColumn": 58,
+                    "endOffset": 2117
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2063,
+                        "endColumn": 58,
+                        "endOffset": 2117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2122,
+                    "endColumn": 60,
+                    "endOffset": 2178
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2122,
+                        "endColumn": 60,
+                        "endOffset": 2178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2183,
+                    "endColumn": 370,
+                    "endOffset": 2549
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2183,
+                        "endColumn": 370,
+                        "endOffset": 2549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2554,
+                    "endColumn": 419,
+                    "endOffset": 2969
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2554,
+                        "endColumn": 419,
+                        "endOffset": 2969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2974,
+                    "endColumn": 225,
+                    "endOffset": 3195
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2974,
+                        "endColumn": 225,
+                        "endOffset": 3195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3200,
+                    "endColumn": 362,
+                    "endOffset": 3558
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3200,
+                        "endColumn": 362,
+                        "endOffset": 3558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3563,
+                    "endColumn": 274,
+                    "endOffset": 3833
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3563,
+                        "endColumn": 274,
+                        "endOffset": 3833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3838,
+                    "endColumn": 425,
+                    "endOffset": 4259
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 3838,
+                        "endColumn": 425,
+                        "endOffset": 4259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4264,
+                    "endColumn": 61,
+                    "endOffset": 4321
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 4264,
+                        "endColumn": 61,
+                        "endOffset": 4321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4326,
+                    "endColumn": 94,
+                    "endOffset": 4416
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 4326,
+                        "endColumn": 94,
+                        "endOffset": 4416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4421,
+                    "endColumn": 99,
+                    "endOffset": 4516
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 4421,
+                        "endColumn": 99,
+                        "endOffset": 4516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4521,
+                    "endColumn": 96,
+                    "endOffset": 4613
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 4521,
+                        "endColumn": 96,
+                        "endOffset": 4613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4618,
+                    "endColumn": 94,
+                    "endOffset": 4708
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 4618,
+                        "endColumn": 94,
+                        "endOffset": 4708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4713,
+                    "endColumn": 110,
+                    "endOffset": 4819
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 4713,
+                        "endColumn": 110,
+                        "endOffset": 4819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4824,
+                    "endColumn": 310,
+                    "endOffset": 5130
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 4824,
+                        "endColumn": 310,
+                        "endOffset": 5130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5135,
+                    "endColumn": 71,
+                    "endOffset": 5202
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 5135,
+                        "endColumn": 71,
+                        "endOffset": 5202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5207,
+                    "endColumn": 121,
+                    "endOffset": 5324
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\e08fef017bc86af58defc7d908a1dfe00abbd741\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 5207,
+                        "endColumn": 121,
+                        "endOffset": 5324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5329,
+                    "endColumn": 55,
+                    "endOffset": 5380
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5385,
+                    "endColumn": 71,
+                    "endOffset": 5452
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 71,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5457,
+                    "endColumn": 54,
+                    "endOffset": 5507
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 54,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5512,
+                    "endColumn": 297,
+                    "endOffset": 5805
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 238,
+                        "endColumn": 297,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5810,
+                    "endColumn": 82,
+                    "endOffset": 5888
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-ca\\values-ca.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 82,
+                        "endOffset": 614
+                    }
+                }
+            }
+        ]
+    }
+]

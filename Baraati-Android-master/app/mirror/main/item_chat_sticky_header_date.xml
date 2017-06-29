@@ -1,0 +1,14 @@
+<!-- [ Mirror metadata ] generatedAt: 1479893982365 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/item_chat_sticky_header_date">
+        <!-- TextView Examples:
+        <header_date_textview text="@string/string_resource" />
+        <header_date_textview text="Text literal" textSize="14sp" /> -->
+        <header_date_textview />
+    </_content>
+</screen>

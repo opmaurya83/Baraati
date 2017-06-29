@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+       android:id="@+id/img"
+       android:scaleType="centerCrop"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+    <View
+        android:background="@color/black_trans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/ic_intro_1"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp" />
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProH
+            android:layout_marginTop="@dimen/_15sdp"
+
+            android:gravity="center"
+            android:text="PLAN"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+
+            android:text="Professionally Plan and organise"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+
+            android:text="Your Wedding - step by step !"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.nectarbits.baraati.View.TextViewKozukaGothicProL
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Photo Credit: Fotographia9"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

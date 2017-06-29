@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoPanelHeight="0dp"
+        sothree:umanoParallaxOffset="0dp"
+        sothree:umanoShadowHeight="0dp">
+
+            <include layout="@layout/dashboard_layout" />
+
+            <include layout="@layout/overlay_layout_profile" />
+
+
+
+
+
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+    <!--<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/godfather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+    <!--<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/ccFooter"
+        tools:context="com.nectarbits.baraati.MainActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <android.support.design.widget.TabLayout
+                android:background="@color/colorGraySelctor"
+                app:tabBackground="@color/colorTabBG"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabTextColor="@color/colorTabTextColor"
+                app:tabIndicatorHeight="@dimen/_5sdp"
+                app:tabSelectedTextColor="@color/colorTabTextColor"
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize" />
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_main" />
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:visibility="visible"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_chat" />
+
+    </android.support.design.widget.CoordinatorLayout>-->
+    <!--    <RelativeLayout
+            android:id="@+id/rlTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/overlay_layout_profile"/>
+        </RelativeLayout>-->
+
+    <!--</com.daimajia.swipe.SwipeLayout>-->
+</RelativeLayout>

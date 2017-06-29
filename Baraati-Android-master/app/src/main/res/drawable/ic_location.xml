@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportHeight="500"
+android:viewportWidth="500">
+<path
+    android:name="Ellipse 1"
+    android:fillColor="#f6bc1e"
+    android:pathData="m250 0.5c137.8 0 249.5 111.7 249.5 249.5c0 137.8 -111.7 249.5 -249.5 249.5c-137.8 0 -249.5 -111.7 -249.5 -249.5c0 -137.8 111.7 -249.5 249.5 -249.5z" />
+<path
+    android:name="Pointer"
+    android:fillColor="#fff"
+    android:pathData="m250 195.6c-15.5 0 -28.1 12.2 -28.1 27.2c0 15 12.6 27.2 28.1 27.2c15.5 0 28.1 -12.2 28.1 -27.2c0 -15 -12.6 -27.2 -28.1 -27.2zm0 -72.6c56.9 0 103.2 44.8 103.2 99.8c0 81.9 -82.4 139.4 -103.2 152.6c-20.8 -13.2 -103.2 -70.5 -103.2 -152.6c0 -55 46.3 -99.8 103.2 -99.8zm0 -18.1c-67.2 0 -121.9 52.9 -121.9 117.9c0 103.8 112.4 168.4 117.2 171.1c1.5 0.8 3.1 1.2 4.7 1.2c1.6 0 3.3 -0.4 4.7 -1.2c4.8 -2.7 117.2 -67.3 117.2 -171.1c0 -65 -54.7 -117.9 -121.9 -117.9z" />
+</vector>

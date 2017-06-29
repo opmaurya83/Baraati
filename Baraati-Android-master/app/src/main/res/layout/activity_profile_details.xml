@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar_normal" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp">
+
+                <ImageView
+                    android:id="@+id/civProfilePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/splash" />
+
+
+
+                <com.nectarbits.baraati.View.TextViewTitle
+                    android:shadowColor="@color/colorRippleGray"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:id="@+id/txtDate"
+                    android:textSize="@dimen/extra_large_Fonts"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:paddingBottom="@dimen/_70sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:id="@+id/llTime"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:id="@+id/tvtDays"
+                            android:textSize="@dimen/medium_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:background="@drawable/timer_bg"
+                            android:text="00"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp" />
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:textSize="@dimen/extar_small_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="@string/str_DAYS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.nectarbits.baraati.View.TextViewTitle
+                        android:textSize="@dimen/extra_large_Fonts"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:text=":"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:id="@+id/tvtHours"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:textSize="@dimen/medium_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:background="@drawable/timer_bg"
+                            android:text="00"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp" />
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:textSize="@dimen/extar_small_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="@string/str_HOURS"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.nectarbits.baraati.View.TextViewTitle
+                        android:textSize="@dimen/extra_large_Fonts"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        android:text=":"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:id="@+id/tvtMinutes"
+                            android:textSize="@dimen/medium_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:background="@drawable/timer_bg"
+                            android:text="00"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp" />
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:textSize="@dimen/extar_small_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="@string/str_MINUTES"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.nectarbits.baraati.View.TextViewTitle
+                        android:textSize="@dimen/extra_large_Fonts"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        android:shadowColor="@color/colorRippleGray"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="5"
+                        android:text=":"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:id="@+id/tvtSeconds"
+                            android:textSize="@dimen/medium_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:background="@drawable/timer_bg"
+                            android:text="00"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp" />
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:textSize="@dimen/extar_small_Fonts"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:shadowColor="@color/colorRippleGray"
+                            android:shadowDx="2"
+                            android:shadowDy="2"
+                            android:shadowRadius="5"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="@string/str_SECONDS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--   <com.github.siyamed.shapeimageview.CircularImageView
+                       android:id="@+id/civProfilePicture"
+                       android:layout_width="@dimen/_80sdp"
+                       android:layout_height="@dimen/_80sdp"
+                       android:layout_centerInParent="true"
+                       android:scaleType="centerCrop"
+                       android:src="@drawable/splash"
+                       app:siBorderColor="@color/colorWhite"
+                       app:siBorderWidth="@dimen/_2sdp" />-->
+            </RelativeLayout>
+            <com.nectarbits.baraati.View.TextViewTitle
+                android:padding="@dimen/_5sdp"
+                android:id="@+id/tvName"
+                android:textSize="@dimen/large_Fonts"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text=""
+                android:background="@color/colorPrimary"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_7sdp">
+               <LinearLayout
+                   android:gravity="center"
+                   android:padding="@dimen/_5sdp"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <com.nectarbits.baraati.View.TextViewTitle
+                       android:padding="@dimen/_5sdp"
+                       android:id="@+id/tvGroome"
+                       android:textSize="@dimen/extra_large_Fonts"
+                       android:textColor="@color/black"
+                       android:gravity="center"
+                       android:text="@string/str_groom"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                   <ImageView
+                       app:srcCompat="@drawable/ic_ring"
+                       android:layout_width="@dimen/_32sdp"
+                       android:layout_height="@dimen/_32sdp" />
+                    <com.nectarbits.baraati.View.TextViewTitle
+
+                        android:textSize="@dimen/medium_Fonts_12"
+                        android:textColor="@color/gray"
+                        android:text="@string/weds"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+                </LinearLayout>
+                   <com.nectarbits.baraati.View.TextViewTitle
+                     android:paddingLeft="@dimen/_5sdp"
+                       android:id="@+id/tvBridal"
+                       android:layout_weight="1"
+                       android:textSize="@dimen/extra_large_Fonts"
+                       android:textColor="@color/black"
+                       android:gravity="center"
+                       android:text="@string/str_bridal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_7sdp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/ic_phone_png"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp" />
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/tvd_phone"
+                            android:textSize="@dimen/small_Fonts_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="@dimen/_10sdp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            app:srcCompat="@drawable/ic_email_png"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp" />
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/tvd_email"
+                            android:text="mahesh@gmail.com"
+                            android:textSize="@dimen/small_Fonts_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="@dimen/_10sdp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llAddress"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            app:srcCompat="@drawable/ic_location"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp" />
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/tvd_address"
+                            android:gravity="left|center_vertical"
+                            android:textSize="@dimen/small_Fonts_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="@dimen/_10sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

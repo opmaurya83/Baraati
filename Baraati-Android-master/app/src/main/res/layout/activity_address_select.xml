@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.nectarbits.baraati.AddressSelectActivity">
+    <include layout="@layout/layout_toolbar_normal"/>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <include layout="@layout/layout_empty_text"/>
+    </RelativeLayout>
+    <com.balysv.materialripple.MaterialRippleLayout
+        app:mrl_rippleBackground="@color/colorCartButton"
+        app:mrl_rippleColor="@color/colorWhite"
+        app:mrl_rippleAlpha="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.nectarbits.baraati.View.TextViewTitle
+            android:id="@+id/ttvContinue"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/medium_Fonts"
+            android:textColor="@color/colorWhite"
+            android:text="@string/str_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

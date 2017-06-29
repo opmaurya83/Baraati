@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar_normal" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsvVendor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    app:auto_cycle="true"
+                    app:pager_animation="Accordion"
+
+                    app:indicator_visibility="visible"
+                    app:pager_animation_span="1100" />
+
+                <View
+                    android:background="@color/colorBlackOverImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.nectarbits.baraati.View.TextViewTitle
+
+                        android:id="@+id/txtProductName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/viewDetail"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:capitalize="characters"
+                        android:text="ATRANGI MATKA"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/large_Fonts" />
+
+                    <com.nectarbits.baraati.View.TextViewTitle
+                        android:visibility="gone"
+                        android:id="@+id/txtVendorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txtProductName"
+
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Kapoor &amp; sons"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/medium_Fonts_12" />
+
+
+                </LinearLayout>
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:padding="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/custom_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorTransparent"
+                    android:gravity="center"
+                    app:selected_color="@color/colorPrimary"
+                    app:selected_height="6dp"
+                    app:selected_padding_left="5dp"
+                    app:selected_padding_right="5dp"
+                    app:selected_width="6dp"
+                    app:shape="oval"
+                    app:unselected_color="@color/colorWhite"
+                    app:unselected_height="6dp"
+                    app:unselected_padding_left="5dp"
+                    app:unselected_padding_right="5dp"
+                    app:unselected_width="6dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                >
+
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="@dimen/_4sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_height="wrap_content">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:mrl_rippleAlpha="0.2"
+
+                        app:mrl_rippleBackground="@color/colorPrimary"
+                        app:mrl_rippleColor="@color/colorWhite">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.nectarbits.baraati.View.TextViewDescription
+                                android:id="@+id/txtInquiry"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="@string/str_inquiry"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/medium_Fonts_12" />
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:mrl_rippleAlpha="0.2"
+                        app:mrl_rippleColor="@color/colorRippleGray">
+                    <LinearLayout
+                        android:id="@+id/llShowReview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_customer_reviews"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                            <com.nectarbits.baraati.View.TextViewDescription
+                                android:id="@+id/txtTotalReviews"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:text="127 Customer Reviews"
+                                android:textColor="@color/colorDesciption"
+                                android:textSize="@dimen/small_Fonts" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <com.nectarbits.baraati.View.TextViewTitle
+                                    android:id="@+id/txtAverageRatting"
+                                    android:layout_marginLeft="@dimen/_1sdp"
+                                    android:background="@color/colorPrimary"
+                                    android:paddingLeft="@dimen/_2sdp"
+                                    android:paddingRight="@dimen/_2sdp"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:text="4.5"
+                                    android:textSize="@dimen/small_Fonts"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/_2sdp"
+                            android:src="@drawable/down_arrow" />
+                    </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                </android.support.v7.widget.CardView>
+
+             <!--   <android.support.v7.widget.CardView
+                    android:visibility="gone"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:mrl_rippleAlpha="0.2"
+                        app:mrl_rippleColor="@color/colorRippleGray">
+
+                        <LinearLayout
+                            android:id="@+id/llShowReview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_5sdp">
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+                                android:id="@+id/txtShowReviewComments"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="left|center_vertical"
+                                android:text="@string/str_show_reviews_comment"
+                                android:textColor="@color/colorDesciption"
+                                android:textSize="@dimen/medium_Fonts" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_24sdp"
+                                android:layout_height="@dimen/_24sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="@dimen/_2sdp"
+                                android:src="@drawable/icon_right_arrow_vd" />
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                </android.support.v7.widget.CardView>-->
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:id="@+id/txtDescriptioTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/selector_expand_collapse"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:text="@string/str_description"
+                            android:textColor="@color/colorTitle"
+
+                            android:textSize="@dimen/medium_Fonts" />
+
+                        <com.nectarbits.baraati.View.ExpandableTextViewDescription
+                            android:id="@+id/txtDecription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:gravity="left"
+                            android:maxLines="3"
+                            android:padding="@dimen/_5sdp"
+                            android:text="dfghhf"
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts_description"
+
+                            app:animation_duration="500" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewTitle
+                            android:id="@+id/ttvSpecification"
+                            android:clickable="true"
+                            android:textColor="@color/colorTitle"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:drawableRight="@drawable/selector_expand_collapse"
+                            android:textSize="@dimen/medium_Fonts"
+                            android:text="@string/str_specification"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content" />
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:visibility="gone"
+                            android:padding="@dimen/_5sdp"
+                            android:id="@+id/tvdNoSpecification"
+                            android:gravity="center"
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts_description"
+                            android:text="@string/str_no_specification_found"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                        <LinearLayout
+                            android:padding="@dimen/_5sdp"
+                            android:id="@+id/llAttributes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_more_images"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rcSampleImages"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:padding="@dimen/_5sdp"></android.support.v7.widget.RecyclerView>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

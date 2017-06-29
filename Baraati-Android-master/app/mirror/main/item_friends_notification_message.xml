@@ -1,0 +1,14 @@
+<!-- [ Mirror metadata ] generatedAt: 1479893982411 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/item_friends_notification_message">
+        <!-- TextView Examples:
+        <time_text_message_textview text="@string/string_resource" />
+        <time_text_message_textview text="Text literal" textSize="14sp" /> -->
+        <time_text_message_textview />
+    </_content>
+</screen>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/rplProduct"
+            app:mrl_rippleColor="@color/colorRippleGray"
+            app:mrl_rippleAlpha="0.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/llProduct"
+
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="@dimen/_5sdp"
+
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                    <com.nectarbits.baraati.View.TextViewTitle
+                        android:layout_weight="1"
+                        android:id="@+id/ttvname"
+                        android:text="Lorem Impsum"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="@dimen/medium_Fonts_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                            <com.nectarbits.baraati.View.TextViewTitle
+                                android:visibility="gone"
+                                android:clickable="true"
+                                android:id="@+id/ttvChangeAddress"
+                                android:text="@string/str_change_address"
+                                android:textColor="@color/color_red_gray"
+                                android:textSize="@dimen/medium_Fonts_12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    <com.nectarbits.baraati.View.TextViewDescription
+                        android:id="@+id/ttvAddress"
+
+                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textColor="@color/colorDesciption"
+                        android:textSize="@dimen/small_Fonts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/ttCity"
+
+                            android:text="Lorem"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                            <com.nectarbits.baraati.View.TextViewDescription
+                                android:id="@+id/ttState"
+                                android:layout_marginLeft="@dimen/_3sdp"
+                                android:text="Lorem"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:textColor="@color/colorDesciption"
+                                android:textSize="@dimen/small_Fonts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <com.nectarbits.baraati.View.TextViewDescription
+
+                                android:layout_marginLeft="@dimen/_3sdp"
+                                android:text="-"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:textColor="@color/colorDesciption"
+                                android:textSize="@dimen/small_Fonts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <com.nectarbits.baraati.View.TextViewDescription
+                                android:id="@+id/ttPin"
+
+                                android:text="Lorem"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:textColor="@color/colorDesciption"
+                                android:textSize="@dimen/small_Fonts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:id="@+id/ttPhone"
+
+                            android:text="Lorem"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_2sdp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <CheckBox
+                                android:id="@+id/ivSelect"
+                                android:button="@drawable/selector_radio_checked"
+                                android:layout_width="@dimen/_32sdp"
+                                android:layout_height="@dimen/_32sdp" />
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':Q-municate_core', ':Q-municate_db'

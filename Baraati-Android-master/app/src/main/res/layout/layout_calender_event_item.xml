@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardElevation="@dimen/_2sdp"
+        app:cardPreventCornerOverlap="true">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mrl_rippleAlpha="0.5"
+            app:mrl_rippleColor="@color/colorRippleGray">
+
+
+            <TableRow
+                android:id="@+id/tblRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/txtDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="12-12-2016"
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts" />
+
+                        <com.nectarbits.baraati.View.TextViewTitle
+
+                            android:id="@+id/txtUserEvent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="DJ"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/medium_Fonts" />
+
+                        <com.nectarbits.baraati.View.TextViewDescription
+                            android:id="@+id/txt_completion_status"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text=""
+                            android:textColor="@color/colorDesciption"
+                            android:textSize="@dimen/small_Fonts" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </TableRow>
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

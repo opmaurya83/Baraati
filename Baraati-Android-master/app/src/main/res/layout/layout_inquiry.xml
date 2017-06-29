@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<com.nectarbits.baraati.View.EditTextDescription
+    android:gravity="top|left"
+    android:hint="@string/str_msg"
+    android:id="@+id/evdMessage"
+    android:padding="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:textColor="@color/colorTitle"
+    android:background="@color/colorTransparent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp" />
+    <View
+        android:alpha="0.4"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <com.nectarbits.baraati.View.EditTextDescription
+        android:gravity="top|left"
+        android:hint="@string/str_budget"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:id="@+id/evdBudget"
+        android:padding="@dimen/_5sdp"
+        android:inputType="number"
+        android:textColor="@color/colorTitle"
+        android:background="@color/colorTransparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

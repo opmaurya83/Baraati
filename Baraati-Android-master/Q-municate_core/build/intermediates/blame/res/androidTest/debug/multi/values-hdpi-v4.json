@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "D:\\Mahesh_Windows_data\\Studio\\Baraati-Android-GitLab\\Q-municate_core\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 51,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 51,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 57,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 57,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 226,
+                    "endColumn": 58,
+                    "endOffset": 280
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 58,
+                        "endOffset": 280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 285,
+                    "endColumn": 54,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "C:\\Users\\nectarbits\\.android\\build-cache\\03a8581d1c683b116e4a89bf716179923d9d6e0e\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endColumn": 54,
+                        "endOffset": 335
+                    }
+                }
+            }
+        ]
+    }
+]
